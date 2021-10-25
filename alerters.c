@@ -1,13 +1,10 @@
 #include "alerters.h"
 
-int emailAlertCallCount;
-int ledAlertCallCount;
-
 void emailAlerter()
 {
 	emailAlertCallCount = 1; 
 }
-void ledAlerter(void)
+void ledAlerter()
 {
 	ledAlertCallCount = 1;
 }
