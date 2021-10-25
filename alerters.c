@@ -1,4 +1,5 @@
 #include "alerters.h"
+#include "stats.h"
 
 void emailAlerter()
 {
